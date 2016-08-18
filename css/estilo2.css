@@ -1,4 +1,7 @@
 <style>
+body {
+    background-color: lightblue;
+}
 
 nav {
 	list-style-type: none;

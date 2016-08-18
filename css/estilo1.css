@@ -1,22 +1,37 @@
 <style>
+
+body {
+    background-color: lightblue;
+}
+
 a:link, a:visited {
     background-color: #f44336;
     color: blue;
     padding: 14px 25px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: solid;
     display: inline-block;
 }
 
 
 a:hover, a:active {
-    background-color: red;
+    background-color: green;
 }
+#section {
+            width:350px;
+            float:center;
+            padding:10px;
+        }
+
 h1 {
 	display: block;
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+}
+section{
+    border-style: solid;
+    border-color: green;
 }
 </style>

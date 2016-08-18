@@ -1,8 +1,11 @@
 <style>
+body {
+    background-color: lightblue;
+}
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
+    float: center;
     width: 180px;
 }
 
@@ -19,11 +22,16 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
-h1 {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+h1.g {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header {
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
 }
 </style>
